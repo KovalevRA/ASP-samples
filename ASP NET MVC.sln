@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninject", "Ninject\Ninject.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninject.Tests", "Ninject.Tests\Ninject.Tests.csproj", "{C9ED8602-8DFD-414C-AE37-11712E3C049D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlsAndRoutes", "UrlsAndRoutes\UrlsAndRoutes.csproj", "{83A7ACE6-BA8D-4B6F-98D2-92EDA3C6F3FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlsAndRoutes.Tests", "UrlsAndRoutes.Tests\UrlsAndRoutes.Tests.csproj", "{FC9E0949-D25B-496A-9641-D4A58AA70891}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C9ED8602-8DFD-414C-AE37-11712E3C049D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9ED8602-8DFD-414C-AE37-11712E3C049D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9ED8602-8DFD-414C-AE37-11712E3C049D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A7ACE6-BA8D-4B6F-98D2-92EDA3C6F3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A7ACE6-BA8D-4B6F-98D2-92EDA3C6F3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A7ACE6-BA8D-4B6F-98D2-92EDA3C6F3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A7ACE6-BA8D-4B6F-98D2-92EDA3C6F3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9E0949-D25B-496A-9641-D4A58AA70891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9E0949-D25B-496A-9641-D4A58AA70891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9E0949-D25B-496A-9641-D4A58AA70891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9E0949-D25B-496A-9641-D4A58AA70891}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
