@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor samples", "Razor samples\Razor samples.csproj", "{E230C0DD-A467-410E-8A38-4786345F305F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninject", "Ninject\Ninject.csproj", "{F79FACF5-BD62-4C7C-AF07-0F5D13B3F673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninject.Tests", "Ninject.Tests\Ninject.Tests.csproj", "{C9ED8602-8DFD-414C-AE37-11712E3C049D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E230C0DD-A467-410E-8A38-4786345F305F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E230C0DD-A467-410E-8A38-4786345F305F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E230C0DD-A467-410E-8A38-4786345F305F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79FACF5-BD62-4C7C-AF07-0F5D13B3F673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79FACF5-BD62-4C7C-AF07-0F5D13B3F673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79FACF5-BD62-4C7C-AF07-0F5D13B3F673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79FACF5-BD62-4C7C-AF07-0F5D13B3F673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9ED8602-8DFD-414C-AE37-11712E3C049D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9ED8602-8DFD-414C-AE37-11712E3C049D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9ED8602-8DFD-414C-AE37-11712E3C049D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9ED8602-8DFD-414C-AE37-11712E3C049D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
