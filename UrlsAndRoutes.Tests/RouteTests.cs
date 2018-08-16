@@ -22,6 +22,16 @@ namespace UrlsAndRoutes.Tests
 			TestRouteFail("~/Admin");
 		}
 
+		[TestMethod]
+		public void TestIcnomingRoutes()
+		{
+			TestRouteMatch("~/", "Home", "Index", new { id = "DefaultId" });
+			TestRouteMatch("~/Home", "Home", "Index", new { id = "DefaultId" });
+			TestRouteMatch("~/Home/Index", "Home", "Index", new { id = "DefaultId" });
+			TestRouteFail("~/Home/Index/All/Delete");
+			TestRouteMatch("~/Home/Index/All", "Home", "Index", new { id = "All" });
+		}
+
 
 		private HttpContextBase CreateHttpContext(string targetUrl = null,
 												  string httpMethod = "GET")
