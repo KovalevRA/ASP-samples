@@ -1,5 +1,6 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
+using UrlsAndRoutes.Infrustructure;
 
 namespace UrlsAndRoutes
 {
@@ -7,23 +8,17 @@ namespace UrlsAndRoutes
 	{
 		public static void RegisterRoutes(RouteCollection routes)
 		{
-			routes.MapRoute(
-							name: "MyRoute",
-							url: "{controller}/{action}/{id}/{*catchcall}",
-							defaults: new
-							{
-								controller = "Home",
-								action = "Index",
-								id = UrlParameter.Optional
-							},
-							namespaces: new[] { "UrlsAndRoutes.AdditionalControllers" }
-						);
+			routes.MapMvcAttributeRoutes();
 
-			routes.MapRoute(null, "Public/{controller}/{action}",
-				defaults: new { action = "Index", controller = "Home" });
+			routes.Add(new Route("SayHello", new CustomRouteHandler()));
 
-			routes.MapRoute(null, "{controller}/{action}",
-				defaults: new { action = "Index", controller = "Home" });
+			routes.Add(new LegacyRoute(
+				"~/articles/About_ASPNET_MVC",
+				"~/old/NET_Framework_4"
+				));
+
+			routes.MapRoute("MyRoute", "{controller}/{action}");
+			routes.MapRoute("MyOtherRoute", "App/{action}", new { controller = "Home" });
 		}
 	}
 }
