@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using ControllerExtensibility.Infrastructure;
+using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace ControllerExtensibility
@@ -9,6 +10,8 @@ namespace ControllerExtensibility
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+			ControllerBuilder.Current.SetControllerFactory(new DefaultControllerFactory(new CustomerControllerActivator()));
         }
     }
 }
