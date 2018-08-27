@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncControllers", "AsyncCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "Views\Views.csproj", "{0846CDCA-A543-4369-A3CD-EF247AC4AF68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRazor", "WorkingWithRazor\WorkingWithRazor.csproj", "{B78C778D-7B9D-4A51-8534-DA9D5AB457AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0846CDCA-A543-4369-A3CD-EF247AC4AF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0846CDCA-A543-4369-A3CD-EF247AC4AF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0846CDCA-A543-4369-A3CD-EF247AC4AF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78C778D-7B9D-4A51-8534-DA9D5AB457AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78C778D-7B9D-4A51-8534-DA9D5AB457AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78C778D-7B9D-4A51-8534-DA9D5AB457AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78C778D-7B9D-4A51-8534-DA9D5AB457AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
