@@ -108,7 +108,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Content Include="Infrastructure\DebugDataView.cs" />
+    <Compile Include="Infrastructure\DebugDataView.cs" />
     <Compile Include="Infrastructure\DebugDataViewEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
