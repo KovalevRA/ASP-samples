@@ -1,4 +1,5 @@
 ﻿using GameStore.Domain.Abstract;
+using GameStore.Domain.Concrete;
 using GameStore.Domain.Entities;
 using Moq;
 using Ninject;
@@ -36,9 +37,17 @@ namespace GameStore.WebUI.Infrastructure
 			{
 				new Game {Name = "SimCity", Price = 1499},
 				new Game { Name = "TITANFALL", Price=2299 },
-				new Game { Name = "Battlefield 4", Price=899.4M }
+				new Game { Name = "Battlefield 4", Price=899.4M },
+				new Game {  Name = "GTA 4", Price = 899},
+				new Game {Name = "SimCity 2", Price = 1499},
+				new Game { Name = "TITANFALL 2", Price=2299 },
+				new Game { Name = "Battlefield 5", Price=899.4M },
+				new Game {Name = "SimCity 3 ", Price = 1499},
+				new Game { Name = "TITANFALL 3", Price=2299 },
+				new Game { Name = "Battlefield 6", Price=899.4M },
 			});
 			kernel.Bind<IGameRepository>().ToConstant(mock.Object);
+			//kernel.Bind<IGameRepository>().To<EFGameRepository>();
 		}
 	}
 }
